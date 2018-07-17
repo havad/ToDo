@@ -23,6 +23,7 @@ body {
 #text {
     width: 636px;
     border: 1px solid black;
+    margin: 10px 0px;
 }
 
 #submit {
@@ -30,6 +31,12 @@ body {
 }
 
 p {
-    margin: auto;
+    margin: 5px 5px 5px 0px;
     background-color: lightgray;
+    width: 670px;
+}
+
+#tasks {
+    margin: auto;
+    width: 700px;
 }
