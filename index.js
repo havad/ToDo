@@ -16,6 +16,8 @@ function submitButton() {
     var newDiv = document.createElement("div");
     var para = document.createElement("p");
     var text = document.createTextNode(document.getElementById("text").value);
+    para.setAttribute("id", "para" + count);
+    para.setAttribute("onclick", "strike(this.id)");
     para.appendChild(text);
 
     console.log(text);
@@ -45,6 +47,16 @@ function removeTask(id) {
     test.parentNode.removeChild(test);
 
     console.log("removing " + id + "!");
-    count--;
-    console.log("count is " + count);
+}
+
+//adds or removes a strikethough on the text of the paragraph
+function strike(id) {
+    console.log(id);
+    if (document.getElementById(id).style.textDecoration == "line-through") {
+        document.getElementById(id).style.textDecoration = "";
+    }
+    else {
+        document.getElementById(id).style.textDecoration = "line-through";
+    }
+    
 }
