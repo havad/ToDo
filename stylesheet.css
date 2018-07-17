@@ -1,0 +1,35 @@
+#header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: tan;
+    border: 2px solid black;
+    height: 100px;
+    width: 700px;
+    margin: auto;
+    background-color: gray;
+    font-size: 20px;
+    
+}
+
+body {
+    background-color: darkgray;
+}
+
+#textbox {
+    margin: auto;
+    width:702px;
+}
+
+#text {
+    width: 636px;
+    border: 1px solid black;
+}
+
+#submit {
+    border: 1px solid black;
+}
+
+p {
+    margin: auto;
+    background-color: lightgray;
+}
