@@ -60,3 +60,11 @@ function strike(id) {
     }
     
 }
+
+//checks if enter key was pressed, if so submits text
+function check(e) {
+    if (e.keyCode == 13) {
+        e.preventDefault();
+        submitButton();
+    }
+}
