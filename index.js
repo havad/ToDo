@@ -26,6 +26,7 @@ function submitButton() {
     var xButton = document.createElement("button");
     xButton.setAttribute("id", "xButton" + count);
     xButton.setAttribute("onclick", "removeTask(this.parentElement.id)");
+    xButton.setAttribute("class", "xButton");
     var x = document.createTextNode("x");
     xButton.appendChild(x);
 
